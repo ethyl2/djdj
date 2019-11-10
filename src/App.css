@@ -66,6 +66,21 @@ header {
   padding: 3rem 0;
 }
 
+.home-img {
+  background: #1F1C24;
+  width: 25%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.home-img img {
+  border: 1rem solid#F7950F;
+  width: 80%;
+  margin: 3rem;
+}
+
 .awesome-points {
   display: flex;
   flex-flow: row wrap;

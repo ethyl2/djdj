@@ -13,13 +13,15 @@ const Home = (props) => {
             <br />for events in Utah, Nevada, Wyoming, 
                 Idaho, Oregon, and Washington
             <br />since 2006.</h3>
-            <img src={Dave_Nuffer} alt="Dave Nuffer" />
-            <p>DJ.DJ Entertainment is owned and operated by DJ Dave Nuffer, 
+            <div className="img-container home-img">
+                <img src={Dave_Nuffer} alt="Dave Nuffer" />
+            </div>
+            <p>DJ.DJ Entertainment is owned and operated by DJ Dave Nuffer,<br /> 
                 who has been in the professional DJ business since 1995.
             </p>
 
-            <p>Dave's professional and friendly personality, and his 
-                20+ years of experience as a DJ, are the perfect mix to make 
+            <p>Dave's professional and friendly personality,<br /> and his 
+                20+ years of experience as a DJ,<br /> are the perfect mix to make 
                 your next event unforgettable.</p>
         </div> 
     )
