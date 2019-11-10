@@ -1,22 +1,84 @@
 .App {
   text-align: center;
+  font-family: Chivo, sans-serif;
+  font-size: 6rem;
+  letter-spacing: 0.05rem;
 }
 
-.App-logo {
-  height: 40vmin;
+h1 {
+  font-family: Prata, serif;
+  letter-spacing: 0.55rem;
+  color: #F7950F;
+  margin: 6rem auto 12rem auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-size: 4rem;
+  width: 60%;
+  margin: 4rem auto 3rem auto;
+  line-height: 6rem;
+  color: #87D6D0;
+}
+
+h3 {
+  font-size: 3rem;
+  width: 65%;
+  margin: 5rem auto;
+  line-height: 6rem;
+}
+
+p {
+  font-size: 2rem;
+  width: 70%;
+  margin: 2rem auto;
+  line-height: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #87D6D0;
+  padding: 0 3rem;
+  font-size: 4rem;
+}
+
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2rem 0;
+}
+nav .img-container {
+  width: 10%;
+  padding-left: 2rem;
+}
+img {
+  max-width: 100%;
 }
 
-.App-link {
-  color: #09d3ac;
+nav .nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background: url('./images/microphone.jpg');
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+.awesome-points {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 100%;
+}
+
+.awesome-point {
+  width: 33%;
+  margin: 2rem 0;
+}
+
+.awesome-point h3 {
+  color: #F7950F;
 }
