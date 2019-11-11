@@ -1,5 +1,8 @@
 import React from 'react';
 import coupleDancing from '../images/coupleDancing.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart, 
+    } from '@fortawesome/free-solid-svg-icons';
 
 const Pricing = (props) => {
     return (
@@ -11,7 +14,7 @@ const Pricing = (props) => {
             <div className="img-container" >
                 <img src={coupleDancing} alt="Bride and Groom Dancing" />
             </div>
-
+            <FontAwesomeIcon icon={faHeart} />
             <h2>Wedding*</h2>
 
                 <p>$495.00 - up to 5 hours</p>
