@@ -9,7 +9,7 @@ h1 {
   font-family: Prata, serif;
   letter-spacing: 0.55rem;
   color: #F7950F;
-  margin: 3rem auto 6rem auto;
+  margin: 2.5rem auto 3rem auto;
 }
 
 h2 {
@@ -105,3 +105,41 @@ header {
 .awesome-point h3 {
   color: #F7950F;
 }
+
+.event-types {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.event-type {
+  width: 45%;
+  border: 3px solid #1F1C24;
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.event-type h2 {
+  width: 100%;
+  margin: 1rem;
+}
+
+.event-type p {
+  width: 90%;
+  line-height: 2rem;
+  
+}
+
+.note {
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.15rem;
+}
+
