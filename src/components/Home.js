@@ -17,7 +17,7 @@ const Home = (props) => {
                 <img src={Dave_Nuffer} alt="Dave Nuffer" />
             </div>
             <p>DJ.DJ Entertainment is owned and operated by DJ Dave Nuffer,<br /> 
-                who has been in the professional DJ business since 1995.
+                who has been in the professional DJ business<br /> since 1995.
             </p>
 
             <p>Dave's professional and friendly personality,<br /> and his 

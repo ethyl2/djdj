@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   font-family: Chivo, sans-serif;
-  font-size: 6rem;
+  font-size: 3rem;
   letter-spacing: 0.05rem;
 }
 
@@ -9,26 +9,26 @@ h1 {
   font-family: Prata, serif;
   letter-spacing: 0.55rem;
   color: #F7950F;
-  margin: 6rem auto 12rem auto;
+  margin: 3rem auto 6rem auto;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 2rem;
   width: 60%;
-  margin: 4rem auto 3rem auto;
-  line-height: 6rem;
+  margin: 2rem auto 3rem auto;
+  line-height: 4rem;
   color: #87D6D0;
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   width: 65%;
   margin: 5rem auto;
-  line-height: 6rem;
+  line-height: 3rem;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 70%;
   margin: 2rem auto;
   line-height: 5rem;
@@ -37,8 +37,16 @@ p {
 a {
   text-decoration: none;
   color: #87D6D0;
-  padding: 0 3rem;
-  font-size: 4rem;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+a:active {
+  color: #7D9997;
 }
 
 nav {
@@ -68,7 +76,7 @@ header {
 
 .home-img {
   background: #1F1C24;
-  width: 25%;
+  width: 35%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -78,7 +86,7 @@ header {
 .home-img img {
   border: 1rem solid#F7950F;
   width: 80%;
-  margin: 3rem;
+  margin: 3rem 6rem;
 }
 
 .awesome-points {
