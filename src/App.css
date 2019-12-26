@@ -20,6 +20,13 @@ h2 {
   color: #87D6D0;
 }
 
+header h2 {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  width: 33%;
+  color: #79c0bb;
+}
+
 h3 {
   font-size: 2rem;
   width: 65%;
@@ -47,6 +54,7 @@ a:hover {
 
 a:active {
   color: #7D9997;
+  font-style: bold;
 }
 
 nav {

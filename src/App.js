@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Route, Link} from 'react-router-dom';
+import {Route, NavLink} from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -15,10 +15,10 @@ function App() {
           <img src={Logo}  alt="DJDJ logo"/>
         </div>
         <div className="nav-items">
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About Us</Link>
-        <Link to='/pricing'>Pricing</Link>
-        <Link to='/contact'>Contact Us</Link>
+        <NavLink activeClassName='.active' to='/'>Home</NavLink>
+        <NavLink activeClassName='.active' to='/about'>About Us</NavLink>
+        <NavLink activeClassName='.active' to='/pricing'>Pricing</NavLink>
+        <NavLink activeClassName='.active' to='/contact'>Contact Us</NavLink>
     
         </div>
       </nav>
