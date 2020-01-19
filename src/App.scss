@@ -15,6 +15,10 @@ h1 {
   margin: 2.5rem auto 3rem auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  font-size: 5rem;
+  @media (max-width: 700px) {
+    font-size: 3rem;
+  }
 }
 
 
@@ -24,6 +28,9 @@ h2 {
   margin: 2rem auto 3rem auto;
   line-height: 4rem;
   color: $primary-color;
+  @media (max-width: 700px) {
+    font-size: 1.5rem;
+  }
 }
 
 header h2 {
@@ -63,24 +70,35 @@ a:active {
   font-style: bold;
 }
 
+.active {
+  color: #7D9997;
+  font-style: bold;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
   .img-container {
-    width: 10%;
+    width: 8%;
     padding-left: 2rem;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  .nav-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    a {
+      margin: 1rem;
+    }
   }
 }
 
 img {
   max-width: 100%;
-}
-
-nav .nav-items {
-  display: flex;
-  justify-content: space-around;
 }
 
 header {
@@ -228,4 +246,64 @@ form {
     }
   }
 
+}
+
+/* Planning Page Styles */
+.sheet-link {
+  background: $primary-color;
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  transition: all .3 ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+    background: teal;
+  }
+  a {
+    color: white;
+    padding: 1rem;
+  }
+  @media (max-width: 500px) {
+    width: 80%;
+  }
+}
+
+.img-container.medium {
+  width: 50%;
+  margin: 8rem auto;
+  img {
+    width: 100%;
+  }
+  @media (max-width: 500px) {
+    width: 90%;
+  }
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.5rem;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  justify-items: center;
+  border: 0.25rem dotted $primary-color;
+  width: 90%;
+  margin: 1rem auto;
+  li {
+    width: 20%;
+    padding: 1rem;
+    margin: 1rem;
+    @media (max-width: 500px) {
+      width: 90%;
+    }
+  }
+}
+
+ul.music-variety {
+  border: 0.25rem dotted $secondary-color;
 }
