@@ -4,7 +4,7 @@ import {Route, NavLink} from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import Logo from './images/DJDJCircleLogo.png';
+import GrayLogo from './images/DJDJCircleLogo-gray.png';
 import Pricing from './components/Pricing';
 import Planning from './components/Planning';
 import Reviews from './components/Reviews';
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
         <nav>
           <div className="img-container">
-            <img src={Logo}  alt="DJDJ logo"/>
+            <img src={GrayLogo}  alt="DJDJ logo"/>
           </div>
           <div className="nav-items">
           <NavLink exact activeClassName='active' to='/'>Home</NavLink>
