@@ -23,6 +23,8 @@ const Home = (props) => {
             <p>Dave's professional and friendly personality,<br /> and his 
                 20+ years of experience as a DJ,<br /> are the perfect mix to make 
                 your next event unforgettable.</p>
+
+            <video src='https://docs.google.com/file/d/0B_EUEokvCJVAR1NrdEI2a0psX0k/view' />
         </div> 
     )
 }

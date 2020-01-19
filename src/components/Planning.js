@@ -1,6 +1,7 @@
 import React from 'react';
 import Dancing from '../images/Dancing.jpg';
 import Night from '../images/Night.jpg';
+import FaceToFace from '../images/FaceToFace.jpg';
 
 const Planning = props => {
     return (
@@ -77,9 +78,31 @@ const Planning = props => {
                     <li>Soul/R&B</li>
                     <li>Rock & Roll</li>
                     <li>Alternative Rock</li>
+                    <li>Holiday</li>
                     <li>And more!</li>
                 </ul>
+            </div>
 
+            <div className="img-container medium" >
+                <img src={FaceToFace} alt="Couple Dancing" />
+            </div>
+
+            <div>
+                <h2>Event Possibilities</h2>
+                <p>Here are some events that you may interested in having at your wedding or other main event.</p>
+                <ul>
+                    <li>Introductions -- of bride & groom, of wedding party, of VIPs, etc.</li>
+                    <li>Food/drink options -- hors d' oeuvrs, buffet, cocktail/social hour, sit-down dinner, etc.</li>
+                    <li>Spotlight dances -- bride & groom, father & bride, mother & groom, parents, wedding party, etc.</li>
+                    <li>Toasts/speeches</li>
+                    <li>Ceremonies -- ring exchange, etc.</li>
+                    <li>Receiving line</li>
+                    <li>Bouquet/garter tosses</li>
+                    <li>Cake cutting</li>
+                    <li>Dancing</li>
+                    <li>Awards/prizes/gifts</li> 
+                    <li>Send-off</li> 
+                </ul>
             </div>
 
         </div>

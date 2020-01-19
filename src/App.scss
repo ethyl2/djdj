@@ -1,5 +1,6 @@
 $primary-color: #87D6D0;
 $secondary-color: #F7950F;
+$gray: #7D9997;
 
 .App {
   text-align: center;
@@ -80,6 +81,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
+  border-bottom: 1px solid $gray;
   .img-container {
     width: 8%;
     padding-left: 2rem;
@@ -306,4 +308,10 @@ ul {
 
 ul.music-variety {
   border: 0.25rem dotted $secondary-color;
+}
+
+/* Footer Styles */
+footer {
+  border-top: 1px solid $gray;
+  margin-top: 2rem;
 }
