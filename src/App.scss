@@ -20,6 +20,9 @@ h1 {
   @media (max-width: 700px) {
     font-size: 3rem;
   }
+  @media (max-width: 500px) {
+    font-size: 2rem;
+  }
 }
 
 
@@ -32,6 +35,9 @@ h2 {
   @media (max-width: 700px) {
     font-size: 1.5rem;
   }
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
 }
 
 header h2 {
@@ -39,6 +45,13 @@ header h2 {
   border-radius: 3px;
   width: 33%;
   color: #79c0bb;
+  @media (max-width: 700px) {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+  @media (max-width: 700px) {
+    font-size: 1rem;
+  }
 }
 
 h3 {
