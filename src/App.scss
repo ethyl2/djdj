@@ -1,0 +1,231 @@
+$primary-color: #87D6D0;
+$secondary-color: #F7950F;
+
+.App {
+  text-align: center;
+  font-family: Chivo, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
+}
+
+h1 {
+  font-family: Prata, serif;
+  letter-spacing: 0.55rem;
+  color: $secondary-color;
+  margin: 2.5rem auto 3rem auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+
+h2 {
+  font-size: 2rem;
+  width: 60%;
+  margin: 2rem auto 3rem auto;
+  line-height: 4rem;
+  color: $primary-color;
+}
+
+header h2 {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  width: 33%;
+  color: #79c0bb;
+}
+
+h3 {
+  font-size: 2rem;
+  width: 65%;
+  margin: 2rem auto 3rem auto;
+  line-height: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+  width: 70%;
+  margin: 2rem auto;
+  line-height: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #87D6D0;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+a:active {
+  color: #7D9997;
+  font-style: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  .img-container {
+    width: 10%;
+    padding-left: 2rem;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+nav .nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background: url('./images/microphone.jpg');
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+.home-img {
+  background: #1F1C24;
+  width: 35%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  img {
+    border: 1rem solid $secondary-color;
+    width: 80%;
+    margin: 3rem 6rem;
+    }
+}
+
+.awesome-points {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 100%;
+  .awesome-point {
+    width: 45%;
+    margin: 2rem 0;
+    h3 {
+      color: $secondary-color;
+      font-weight: bold;
+    }
+    p {
+      line-height: 2.75rem;
+    }
+    @media (max-width: 900px) {
+      width: 100%;
+    }
+  }
+}
+
+.event-types {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: stretch;
+  .event-type {
+    width: 45%;
+    border: 3px solid #1F1C24;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    h2 {
+      width: 100%;
+      margin: 1rem;
+    }
+    p {
+      width: 90%;
+      line-height: 2rem; 
+    }
+    @media (max-width: 900px) {
+      width: 90%;
+    }
+  }
+}
+
+.note {
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.15rem;
+}
+
+form {
+  font-size: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 2rem auto;
+  background: rgba(247, 149, 15, 0.4);
+  padding: 2rem;
+  border-radius: 2px;
+  .input-box {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    font-family: Chivo, sans-serif;
+    border: none;
+    line-height: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    width: 70%;
+    border-radius: 2px;
+  }
+  legend {
+    font-weight: bold;
+    margin: 1rem;
+  }
+  label {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 1rem;
+  }
+  textarea {
+    margin: 1rem;
+    line-height: 2rem;
+    border: none;
+    padding: 1rem;
+    width: 70%;
+    border-radius: 2px;
+  }
+  input[placeholder] {
+    font-style: italic;
+    
+  }
+  textarea[placeholder] {
+    font-style: italic;
+    font-family: Chivo, sans-serif;
+  }
+  button {
+    font-family: Chivo, sans-serif;
+    border: none;
+    background: $secondary-color;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    transition: all .2 ease-in-out;
+    border-radius: 2px;
+    &:hover {
+      font-style: italic;
+      transform: scale(1.2);
+    }
+  }
+
+}

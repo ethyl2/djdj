@@ -19,34 +19,34 @@ const Pricing = (props) => {
             </div>
 
             <div className="event-types" >
-                <container className="event-type">
+                <div className="event-type">
                 <FontAwesomeIcon icon={faHeart} />
                     <h2>Wedding*</h2>
 
                         <p>$495.00 - up to 5 hours</p>
                         <p>Includes everything:<br /> ceremony, reception, background music, dancing, announcements, and unlimited fun.
                         </p>
-                </container>
+                </div>
 
-                <container className="event-type">
+                <div className="event-type">
                     <FontAwesomeIcon icon={faMusic} />
                     <h2>Company Event*</h2>
 
                         <p>$395.00 - up to 5 hours</p>
                         <p>Includes everything:<br /> dinner music, dancing, games, announcements, and much more.
                         </p>
-                </container>
+                </div>
 
-                <container className="event-type">
+                <div className="event-type">
 
                     <FontAwesomeIcon icon={faSchool} />
                     <h2>School Dance*</h2>
                     <p>$295.00 - up to 5 hours</p>
                     <p>Includes everything:<br /> dancing, games, contests, awards, announcements, and an unforgettable evening.
                     </p>
-                </container>
+                </div>
 
-                <container className="event-type">
+                <div className="event-type">
                     <FontAwesomeIcon icon={faBirthdayCake} />
                     <h2> Other Events</h2>
                         <p>Other events not listed (bar/bat mitzvahs, community events, 
@@ -54,7 +54,7 @@ const Pricing = (props) => {
                             festivals, races, and many others) please contact DJ.DJ 
                             Entertainment for pricing.
                         </p>
-                </container>
+                </div>
             </div>
             <hr />
             <p className="note">
