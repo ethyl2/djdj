@@ -34,63 +34,63 @@ const Contact = (props) => {
 
             <div>
 
-            <form action="https://formspree.io/mlejobow" method="POST">
-                <legend>Send Us a Message</legend>
+                <form action="https://formspree.io/mlejobow" method="POST">
+                    <legend>Send Us a Message</legend>
 
-                <div className='input-box'>
-                <label htmlFor='name'><FontAwesomeIcon icon={faUser} /></label>
-                <input type='text' 
-                    placeholder='your name'
-                    onChange={handleChange}
-                    id='name'
-                    name='name'
-                    required 
-                />
-                </div>
+                    <div className='input-box'>
+                    <label htmlFor='name'><FontAwesomeIcon icon={faUser} /></label>
+                    <input type='text' 
+                        placeholder='your name'
+                        onChange={handleChange}
+                        id='name'
+                        name='name'
+                        required 
+                    />
+                    </div>
 
-                <div className='input-box'>
-                <label htmlFor='phone'><FontAwesomeIcon icon={faPhone} /></label>
-                <input type='tel'
-                    name='phone'
-                    id='phone'
-                    onChange={handleChange}
-                    placeholder='your phone number'
-                    required
-                />
-                </div>
+                    <div className='input-box'>
+                    <label htmlFor='phone'><FontAwesomeIcon icon={faPhone} /></label>
+                    <input type='tel'
+                        name='phone'
+                        id='phone'
+                        onChange={handleChange}
+                        placeholder='your phone number'
+                        required
+                    />
+                    </div>
 
-                <div className='input-box'>
-                <label htmlFor='email'><FontAwesomeIcon icon={faEnvelope} /></label>
-                <input type='email'
-                    name='email'
-                    id='email'
-                    placeholder='your email address'
-                    required
-                    onChange={handleChange}
-                />
-                </div>
+                    <div className='input-box'>
+                    <label htmlFor='email'><FontAwesomeIcon icon={faEnvelope} /></label>
+                    <input type='email'
+                        name='email'
+                        id='email'
+                        placeholder='your email address'
+                        required
+                        onChange={handleChange}
+                    />
+                    </div>
 
-                <div className='input-box'>
-                <label htmlFor='eventType'><FontAwesomeIcon icon={faQuestionCircle} /></label>
-                <input type='text'
-                    name='eventType'
-                    id='eventType'
-                    onChange={handleChange}
-                    placeholder='event type you are interested in: wedding, school dance, etc.'
-                />
-                </div>
+                    <div className='input-box'>
+                    <label htmlFor='eventType'><FontAwesomeIcon icon={faQuestionCircle} /></label>
+                    <input type='text'
+                        name='eventType'
+                        id='eventType'
+                        onChange={handleChange}
+                        placeholder='event type you are interested in: wedding, school dance, etc.'
+                    />
+                    </div>
 
-                <div className='input-box'>
-                <label htmlFor='message'><FontAwesomeIcon icon={faPenFancy} /></label>
-                <textarea name='message'
-                    id='message'
-                    onChange={handleChange}
-                    placeholder="anything else you'd like to add"
-                />
-                </div>
+                    <div className='input-box'>
+                    <label htmlFor='message'><FontAwesomeIcon icon={faPenFancy} /></label>
+                    <textarea name='message'
+                        id='message'
+                        onChange={handleChange}
+                        placeholder="anything else you'd like to add"
+                    />
+                    </div>
 
-                <button type='submit'>Submit</button>
-            </form>
+                    <button type='submit'>Submit</button>
+                </form>
             </div>
 
         </div> 
