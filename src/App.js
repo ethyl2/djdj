@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Logo from './images/DJDJCircleLogo.png';
 import Pricing from './components/Pricing';
 import Planning from './components/Planning';
+import Reviews from './components/Reviews';
 import Footer from './components/Footer';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <NavLink activeClassName='active' to='/about'>About Us</NavLink>
           <NavLink activeClassName='active' to='/pricing'>Pricing</NavLink>
           <NavLink activeClassName='active' to='/plan'>Start Planning</NavLink>
+          <NavLink activeClassName='active' to='/reviews'>Reviews</NavLink>
           <NavLink activeClassName='active' to='/contact'>Contact Us</NavLink>
       
           </div>
@@ -30,6 +32,7 @@ function App() {
       <Route path='/pricing' component={Pricing} />
       <Route path='/contact' component={Contact} />
       <Route path='/plan' component={Planning} />
+      <Route path='/reviews' component={Reviews} />
 
       <Footer />
     </div>

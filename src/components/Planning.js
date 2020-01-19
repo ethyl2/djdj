@@ -8,7 +8,7 @@ const Planning = props => {
         <div>
             <h1>Start Planning</h1>
             <h2>You can download and print the forms below to begin planning your event today.</h2>
-            <p>Send me the completed form via email or mail when you are ready.</p>
+            <p>Send us the completed form via email or mail when you are ready.</p>
             <div className='sheet-link'>
                 <a href='https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxkamRqbnVmZmVyfGd4OjU5MmY1MTZiMGUyMzEzNjA'>Wedding Planning Sheet</a>
             </div>
@@ -21,7 +21,7 @@ const Planning = props => {
 
             <div>
                 <h2>Crowd Participation Dances and Games</h2>
-                <p>Your DJ can lead your guests in dances and games to increase the involvement and fun. He will be sure to help everyone learn the dances and feel comfortable.</p>
+                <p>Dave can lead your guests in dances and games to increase the involvement and fun. He will be sure to help everyone learn the dances and feel comfortable.</p>
                 <ul>
                     <li>The Chicken Dance</li>
                     <li>Macarena</li>

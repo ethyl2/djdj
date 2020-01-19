@@ -123,6 +123,10 @@ header {
     }
 }
 
+video {
+  max-width: 100%;
+}
+
 .awesome-points {
   display: flex;
   flex-flow: row wrap;
@@ -192,9 +196,13 @@ form {
   background: rgba(247, 149, 15, 0.4);
   padding: 2rem;
   border-radius: 2px;
+  @media (max-width: 800px) {
+    width: 85%;
+  }
   .input-box {
     width: 90%;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
   }
@@ -226,11 +234,13 @@ form {
   }
   input[placeholder] {
     font-style: italic;
+    text-overflow: ellipsis;
     
   }
   textarea[placeholder] {
     font-style: italic;
     font-family: Chivo, sans-serif;
+    text-overflow: ellipsis;
   }
   button {
     font-family: Chivo, sans-serif;
@@ -300,6 +310,9 @@ ul {
     width: 20%;
     padding: 1rem;
     margin: 1rem;
+    @media (max-width: 800px) {
+      width: 40%;
+    }
     @media (max-width: 500px) {
       width: 90%;
     }
@@ -309,6 +322,41 @@ ul {
 ul.music-variety {
   border: 0.25rem dotted $secondary-color;
 }
+
+/* Reviews Page Styles */
+
+.reviews-page {
+  
+  h1 {
+    margin: 0;
+    padding: 2rem;
+  }
+  .reviews-box {
+    background-image: url('./images/ConradRanchHomestead.jpg');
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    .review {
+      font-size: 1.5rem;
+      background: rgba(255, 255, 255, 0.7);
+      width: 40%;
+      padding: 1rem;
+      margin: 3rem;
+      border-radius: 2px;
+      .author {
+        font-style: italic;
+        font-size: 1rem;
+      }
+      @media (max-width: 600px) {
+        width: 90%;
+      }
+    }
+  }
+}
+
 
 /* Footer Styles */
 footer {
