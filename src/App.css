@@ -10,7 +10,10 @@ h1 {
   letter-spacing: 0.55rem;
   color: #F7950F;
   margin: 2.5rem auto 3rem auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
+
 
 h2 {
   font-size: 2rem;
@@ -30,7 +33,7 @@ header h2 {
 h3 {
   font-size: 2rem;
   width: 65%;
-  margin: 5rem auto;
+  margin: 2rem auto 3rem auto;
   line-height: 3rem;
 }
 
@@ -106,12 +109,16 @@ header {
 }
 
 .awesome-point {
-  width: 33%;
+  width: 45%;
   margin: 2rem 0;
 }
 
 .awesome-point h3 {
   color: #F7950F;
+}
+
+.awesome-point p {
+  line-height: 2.75rem;
 }
 
 .event-types {
@@ -141,8 +148,7 @@ header {
 
 .event-type p {
   width: 90%;
-  line-height: 2rem;
-  
+  line-height: 2rem; 
 }
 
 .note {
