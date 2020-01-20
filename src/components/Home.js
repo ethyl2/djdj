@@ -1,6 +1,7 @@
 import React from 'react';
 import Dave_Nuffer from '../images/Dave_Nuffer.jpg';
 import DJDJVideo from '../images/DJDJVideo.mov';
+import VideoPlaceholder from '../images/VideoPlaceholder.png';
 
 const Home = (props) => {
     return (
@@ -25,7 +26,7 @@ const Home = (props) => {
                 20+ years of experience as a DJ,<br /> are the perfect mix to make 
                 your next event unforgettable.</p>
             
-                <video controls>
+                <video controls poster={VideoPlaceholder} preload="metadata">
                     <source src={DJDJVideo} type="video/mp4" />
                 </video>
 
